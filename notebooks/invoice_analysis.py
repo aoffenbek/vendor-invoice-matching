@@ -2,8 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load datasets
-df = pd.read_csv("../data/invoices.csv")
+# Load datasetsdf = pd.read_csv("../data/invoices.csv")
 mismatches = pd.read_csv("../data/mismatched_invoices.csv")
 
 # Count anomaly types
